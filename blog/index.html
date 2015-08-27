@@ -2,6 +2,7 @@
 layout: default
 title: Blog | Ravi
 ---
+	<div class="container">
 	<h1>Blog Posts</h1>
 	<ul class="posts">
 
@@ -9,3 +10,4 @@ title: Blog | Ravi
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+	</div>

@@ -9,7 +9,7 @@ Blogging on Github pages and Jekyll is awesome. Jekyll uses markdown for blog po
 
 I have found a simple way to generate all the above mentioned information in one go. I have created a python script to do automation process effortlessly. I also created a batch script (.BAT) file to run the python script in a single click. Here is the batch + python script. Save the script as *blog_post.bat* or whatever you want but the file extension must be *.bat*
 
-```python
+{% highlight python %}
 @echo off & python -x "%~f0" %*& goto :eof
 
 #python script here
@@ -33,6 +33,6 @@ f=open(postname,'w')
 f.write(header)
 os.startfile(postname)
 
-```
+{% endhighlight %}
 
 I used python's built in Tkinter for post title prompt.

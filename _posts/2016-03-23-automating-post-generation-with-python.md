@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 published: true
 title: Automating Post Generation with Python
 date: 2016-03-23

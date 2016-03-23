@@ -2,7 +2,7 @@ name: Ravi
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter: pygments
 permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ravi, Launches Site"
+title: "Launching Site"
 date: 2015-08-22
 ---
 

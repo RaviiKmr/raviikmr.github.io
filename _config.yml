@@ -1,6 +1,38 @@
-name: Ravi
-markdown: kramdown
-highlighter: rouge
-permalink: /blog/:year/:month/:day/:title
+# Site settings
+title: My Programming Blog
+url: "http://raviikmr.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+#baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+email: r4vikumar@gmail.com
+author: Ravi
+avatar: "//www.gravatar.com/avatar/6c5e61c7782aaa39d8de92b6a4084534?s=140&d=http%3A%2F%2Fwww.example.com%2Fdefault.jpg"
+profile: Programmer, Gamer, Human.
+twitter_username: raviikmr
+github_username:  RaviiKmr
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: raviikmr   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /blog/:title
 gems:
-  - jekyll-sitemap
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+ - jekyll-sitemap
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

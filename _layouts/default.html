@@ -1,81 +1,25 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<html>
 
-			<link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
-			<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-				rel="stylesheet">
-			<link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.indigo-pink.min.css">
-			<link rel="stylesheet" href="styles.css">
-			<script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
-				<style>
-				#view-source {
-				position: fixed;
-				display: block;
-				right: 0;
-				bottom: 0;
-				margin-right: 40px;
-				margin-bottom: 40px;
-				z-index: 900;
-				}
-    </style>
+  {% include head.html %}
 
-		</head>
-		<body>
-		<div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
-		<!--New header start ////////////////// -->
-	  <!-- Always shows a header, even in smaller screens. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Journey Through Errors</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation. We hide it in small screens. -->
-      <nav class="mdl-navigation mdl-layout--large-screen-only">
-        <a class="mdl-navigation__link" href="/">Home</a>
-      <a class="mdl-navigation__link" href="/blog">Blog</a>
-      <a class="mdl-navigation__link" href="/about">About</a>
-      <a class="mdl-navigation__link" href="/projects">Projects</a>
-      </nav>
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="col-main">
+          {{ content }}
+        </div>
+        <div class="col-second">
+          {% include sidebar.html %}
+        </div>
+      </div>
     </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Ravi</span>
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="/">Home</a>
-      <a class="mdl-navigation__link" href="/blog">Blog</a>
-      <a class="mdl-navigation__link" href="/about">About</a>
-      <a class="mdl-navigation__link" href="/projects">Projects</a>
-    </nav>
-  </div>
-  <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here -->
-	  
-	  <!--New header end /////////// -->
-		{{ content }}
-			
-	<!-- -->
-	</div>
-	<footer class="demo-footer mdl-mini-footer">
-          <div class="mdl-mini-footer--left-section">
-            <ul class="mdl-mini-footer--link-list">
-              <li><a href="#">Help</a></li>
-              <li><a href="#">Privacy and Terms</a></li>
-              <li><a href="#">User Agreement</a></li>
-            </ul>
-          </div>
-        </footer>
-		 </main>
-    </div>
-  </main>
-</div>
-<!-- -->		
-		
-		
-		</body>
-	</html>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

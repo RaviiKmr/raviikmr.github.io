@@ -3,13 +3,14 @@ layout: post
 published: true
 title: Automating Post Generation with Python
 date: 2016-03-23
+categories: programming
 ---
 
 Blogging on Github pages and Jekyll is awesome. Jekyll uses markdown for blog posts. Jekyll requires to name the posts in a particular way and provide other header information like which layout to use, title and date etc.
 
 I have found a simple way to generate all the above mentioned information in one go. I have created a python script to do automation process effortlessly. I also created a batch script (.BAT) file to run the python script in a single click. Here is the batch + python script. Save the script as *blog_post.bat* or whatever you want but the file extension must be *.bat*
 
-{% highlight python %}
+```python
 @echo off & python -x "%~f0" %*& goto :eof
 
 #python script here
@@ -33,6 +34,6 @@ f=open(postname,'w')
 f.write(header)
 os.startfile(postname)
 
-{% endhighlight %}
+```
 
 I used python's built in Tkinter for post title prompt.

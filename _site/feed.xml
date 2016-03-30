@@ -4,10 +4,10 @@
     <title>My Programming Blog</title>
     <description>One or more sentences introducing this blog.
 </description>
-    <link>http://raviikmr.github.io/</link>
-    <atom:link href="http://raviikmr.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Mar 2016 05:22:31 +0530</pubDate>
-    <lastBuildDate>Thu, 31 Mar 2016 05:22:31 +0530</lastBuildDate>
+    <link>http://raviikmr.github.io//</link>
+    <atom:link href="http://raviikmr.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 31 Mar 2016 05:25:24 +0530</pubDate>
+    <lastBuildDate>Thu, 31 Mar 2016 05:25:24 +0530</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -21,8 +21,8 @@ Watch the video below.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</guid>
+        <link>http://raviikmr.github.io//blog/fix-slow-image-loading-in-window-photo-viewer</link>
+        <guid isPermaLink="true">http://raviikmr.github.io//blog/fix-slow-image-loading-in-window-photo-viewer</guid>
         
         
         <category>general</category>
@@ -64,8 +64,8 @@ Watch the video below.&lt;/p&gt;
 &lt;p&gt;I used python’s built in Tkinter for post title prompt.&lt;/p&gt;
 </description>
         <pubDate>Wed, 23 Mar 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/automating-post-generation-with-python</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/automating-post-generation-with-python</guid>
+        <link>http://raviikmr.github.io//blog/automating-post-generation-with-python</link>
+        <guid isPermaLink="true">http://raviikmr.github.io//blog/automating-post-generation-with-python</guid>
         
         
         <category>programming</category>
@@ -77,8 +77,8 @@ Watch the video below.&lt;/p&gt;
         <description>&lt;p&gt;Well. Finally got around to putting this old website together. Neat thing about it - powered by &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Aug 2015 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/my-website-launched</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/my-website-launched</guid>
+        <link>http://raviikmr.github.io//blog/my-website-launched</link>
+        <guid isPermaLink="true">http://raviikmr.github.io//blog/my-website-launched</guid>
         
         
         <category>general</category>

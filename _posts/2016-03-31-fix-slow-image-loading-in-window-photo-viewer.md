@@ -12,3 +12,5 @@ I have found a solution to this problem. I have made a video explaining how to s
 Watch the video below.
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/7727adiDMtw/0.jpg)](http://www.youtube.com/watch?v=7727adiDMtw "Fix Window Photo Viewer Slow Loading Photos")
+
+

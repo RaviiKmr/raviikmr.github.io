@@ -14,7 +14,7 @@ title = askstring('Blog Post Title','Title')
 postname = title.lower().strip().replace(" ","-")
 today = datetime.date.today().strftime("%Y-%m-%d")
 postname = today+"-"+postname+".md"
-slugline = "---\nlayout: default\npublished: false\ntitle: {0}\ndate: {1}\ncategory: general\n---\n".format(title, today)
+slugline = "---\nlayout: post\npublished: false\ntitle: {0}\ndate: {1}\ncategory: general\n---\n".format(title, today)
 
 string.capwords(title)
 f=open(postname,'w')

@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Fix Slow Image Loading in Window Photo Viewer
 date: 2016-03-31
-category: general
+category: tutorial
 ---
 
 Windows Photo Viewer is a built-in image viewer program in Windows operating system. Sometimes we face this problem which is Window Photo Viewer gets very slow and when we open any photo it loads it very slowly. Sometimes it takes more than 5 seconds to load the image.

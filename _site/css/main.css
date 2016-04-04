@@ -248,6 +248,53 @@ h1, h2, h3, h4, h5, h6 {
 .post .post-comments {
   padding-top: 30px; }
 
+.share-page {
+  text-align: center;
+  background: #036;
+  color: #069;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 1.5 0; }
+  .share-page a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px; }
+    .share-page a:hover {
+      border-bottom: 1px dashed #fff; }
+
+#tags_cloud ul {
+  list-style: none; }
+
+#tags_cloud li {
+  display: inline; }
+
+.link-cont {
+  background: #999999;
+  display: inline;
+  border: 1px;
+  width: 100%;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 3px; }
+
+.link-cont:hover {
+  background: #666666;
+  display: inline;
+  border: 1px;
+  width: 100%;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 3px; }
+
+.link-cont a {
+  height: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none; }
+
+.link-cont a:hover {
+  text-decoration: none; }
+
 .home .page-heading {
   font-size: 40px;
   font-weight: normal;

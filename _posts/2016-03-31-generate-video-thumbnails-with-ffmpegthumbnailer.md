@@ -4,6 +4,9 @@ published: true
 title: Generate Video Thumbnails with 'ffmpegthumbnailer'
 date: 2016-03-31
 category: tutorial
+tags:
+  - ubuntu
+  - linux
 ---
 
 Here is a simple trick to show video thumbnails faster in Ubuntu. I'm using ubuntu 15.10.

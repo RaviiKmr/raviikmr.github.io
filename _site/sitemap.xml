@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer</loc>
+<lastmod>2016-03-31T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</loc>
 <lastmod>2016-03-31T00:00:00+05:30</lastmod>
 </url>
@@ -26,6 +30,30 @@
 </url>
 <url>
 <loc>http://raviikmr.github.io/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/projects/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/jekyll/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/github%2520pages/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/python/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/programming/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/windows/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/ubuntu/</loc>
+</url>
+<url>
+<loc>http://raviikmr.github.io/tag/linux/</loc>
 </url>
 <url>
 <loc>http://raviikmr.github.io/google15ab50a97f90aac9.html</loc>

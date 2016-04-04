@@ -3,6 +3,9 @@ layout: post
 title: "Launching Site"
 date: 2015-08-22
 categories: general
+tags:
+  - jekyll
+  - github pages
 ---
 
 

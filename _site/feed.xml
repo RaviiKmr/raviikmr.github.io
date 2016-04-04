@@ -6,9 +6,70 @@
 </description>
     <link>http://raviikmr.github.io/</link>
     <atom:link href="http://raviikmr.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 31 Mar 2016 20:27:57 +0530</pubDate>
-    <lastBuildDate>Thu, 31 Mar 2016 20:27:57 +0530</lastBuildDate>
+    <pubDate>Mon, 04 Apr 2016 03:20:05 +0530</pubDate>
+    <lastBuildDate>Mon, 04 Apr 2016 03:20:05 +0530</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Generate Video Thumbnails with &#39;ffmpegthumbnailer&#39;</title>
+        <description>&lt;p&gt;Here is a simple trick to show video thumbnails faster in Ubuntu. I’m using ubuntu 15.10.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1&quot;&gt;Step 1:&lt;/h3&gt;
+
+&lt;p&gt;First, install the ‘ffmpegthumbnailer’ package. For that, open your Terminal window and enter the below command.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    sudo apt-get install ffmpegthumbnailer
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-2&quot;&gt;Step 2:&lt;/h3&gt;
+
+&lt;p&gt;Now, what we are doing is simple. We are going to replace a some line of code in the configuration file of the ‘totem-thumbnailer’ so that every time it is being called by the file manager, it will execute ‘ffmpegthumbnailer’.&lt;/p&gt;
+
+&lt;p&gt;Open the file /usr/share/thumbnailers/totem-thumbnailer or in Terminal type&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    gedit /usr/share/thumbnailers/totem-thumbnailer
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;and do the following changes. From this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    [Thumbnailer Entry]
+    TryExec=/usr/bin/totem-video-thumbnailer
+    Exe=/usr/bin/totem-video-thumbnailer -s %s %u %o
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;to this:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    [Thumbnailer Entry]
+    TryExec=ffmpegthumbnailer
+    Exe=ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-3&quot;&gt;Step 3:&lt;/h3&gt;
+
+&lt;p&gt;Now restart your computer or just quit Nautilus by typing:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    nautilus -q
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now video thumbnails should be working fine.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 31 Mar 2016 00:00:00 +0530</pubDate>
+        <link>http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer</link>
+        <guid isPermaLink="true">http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer</guid>
+        
+        <category>ubuntu</category>
+        
+        <category>linux</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Fix Slow Image Loading in Window Photo Viewer</title>
@@ -17,15 +78,17 @@
 &lt;p&gt;I have found a solution to this problem. I have made a video explaining how to solve this issue.&lt;br /&gt;
 Watch the video below.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=7727adiDMtw&quot; title=&quot;Fix Window Photo Viewer Slow Loading Photos&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/7727adiDMtw/0.jpg&quot; alt=&quot;IMAGE ALT TEXT&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=7727adiDMtw&quot; title=&quot;Fix Window Photo Viewer Slow Loading Photos&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/7727adiDMtw/0.jpg&quot; alt=&quot;Click to Watch&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0530</pubDate>
         <link>http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</link>
         <guid isPermaLink="true">http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</guid>
         
+        <category>windows</category>
         
-        <category>general</category>
+        
+        <category>tutorial</category>
         
       </item>
     
@@ -67,6 +130,14 @@ Watch the video below.&lt;/p&gt;
         <link>http://raviikmr.github.io/blog/automating-post-generation-with-python</link>
         <guid isPermaLink="true">http://raviikmr.github.io/blog/automating-post-generation-with-python</guid>
         
+        <category>python</category>
+        
+        <category>programming</category>
+        
+        <category>jekyll</category>
+        
+        <category>github pages</category>
+        
         
         <category>programming</category>
         
@@ -82,6 +153,10 @@ It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
         <pubDate>Sat, 22 Aug 2015 00:00:00 +0530</pubDate>
         <link>http://raviikmr.github.io/blog/my-website-launched</link>
         <guid isPermaLink="true">http://raviikmr.github.io/blog/my-website-launched</guid>
+        
+        <category>jekyll</category>
+        
+        <category>github pages</category>
         
         
         <category>general</category>

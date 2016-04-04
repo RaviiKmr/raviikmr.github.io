@@ -4,6 +4,11 @@ published: true
 title: Automating Post Generation with Python
 date: 2016-03-23
 categories: programming
+tags:
+  - python
+  - programming
+  - jekyll
+  - github pages
 ---
 
 Blogging on Github pages and Jekyll is awesome. Jekyll uses markdown for blog posts. Jekyll requires to name the posts in a particular way and provide other header information like which layout to use, title and date etc.

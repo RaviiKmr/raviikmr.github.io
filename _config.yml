@@ -4,7 +4,7 @@ url: "http://raviikmr.github.io"    # the protocol and hostname of your site, eg
 baseurl: '' # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  A blog about the journey of a guy into the land of computers.
 
 # Your information
 email: r4vikumar@gmail.com

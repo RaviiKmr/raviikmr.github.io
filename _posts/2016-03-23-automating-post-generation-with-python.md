@@ -42,3 +42,5 @@ os.startfile(postname)
 ```
 
 I used python's built in Tkinter for post title prompt.
+
+> Also check: [Generate Video Thumbnails in Ubuntu](http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer)

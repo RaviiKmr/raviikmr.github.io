@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Tags in Jekyll Github Blog without Plugins
 date: 2016-04-06
+permalink: /blog/tags-in-jekyll-github-blog-without-plugins
 category: tutorial
 tags:
   - jekyll

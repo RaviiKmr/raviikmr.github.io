@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Automating Post Generation with Python
 date: 2016-03-23
+permalink: /blog/automating-post-generation-with-python
 categories: programming
 tags:
   - python

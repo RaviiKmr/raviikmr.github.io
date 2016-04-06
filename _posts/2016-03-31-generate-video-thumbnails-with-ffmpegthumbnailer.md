@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Generate Video Thumbnails with 'ffmpegthumbnailer'
 date: 2016-03-31
+permalink: /blog/generate-video-thumbnails-with-ffmpegthumbnailer
 category: tutorial
 tags:
   - ubuntu

@@ -2,6 +2,7 @@
 layout: post
 title: "Launching Site"
 date: 2015-08-22
+permalink: /blog/my-website-launched
 categories: general
 tags:
   - jekyll

@@ -3,6 +3,7 @@ layout: post
 published: true
 title: Fix Slow Image Loading in Window Photo Viewer
 date: 2016-03-31
+permalink: /blog/fix-slow-image-loading-in-window-photo-viewer
 category: tutorial
 tags:
   - windows

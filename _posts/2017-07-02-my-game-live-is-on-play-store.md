@@ -8,6 +8,8 @@ category: gamedev
 
 I'm very excited to announce My first game on Google Play Store! It is called **"Soccer Ball Juggler"**.
 
+[Download Soccer Ball Juggler](https://play.google.com/store/apps/details?id=com.raviikmr.juggler)
+
 [![screenshot](/imgs/juggler.png)](https://play.google.com/store/apps/details?id=com.raviikmr.juggler)
 
-[Download Soccer Ball Juggler](https://play.google.com/store/apps/details?id=com.raviikmr.juggler)
+

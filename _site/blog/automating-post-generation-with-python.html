@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- meta robots --> 
-  <title>Automating Post Generation with Python « My Programming Blog</title>
+  <title>Automating Post Generation with Python « My Dev Blag</title>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -22,7 +22,7 @@
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://raviikmr.github.io/blog/automating-post-generation-with-python">
-  <link rel="alternate" type="application/rss+xml" title="My Programming Blog" href="http://raviikmr.github.io/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="My Dev Blag" href="http://raviikmr.github.io/feed.xml" />
 </head>
 
 
@@ -30,7 +30,7 @@
 
     <header class="header">
   <div class="wrapper">
-    <a class="site-title" href="/">My Programming Blog</a>
+    <a class="site-title" href="/">My Dev Blag</a>
     <nav class="site-nav">
       
         
@@ -50,11 +50,23 @@
         
       
         
+        <a class="page-link" href="/blog/">Blog</a>
+        
+      
+        
       
         
       
         
         <a class="page-link" href="/projects/">Projects</a>
+        
+      
+        
+      
+        
+      
+        
+      
         
       
         
@@ -90,7 +102,7 @@
 
 <p>I have found a simple way to generate all the above mentioned information in one go. I have created a python script to do automation process effortlessly. I also created a batch script (.BAT) file to run the python script in a single click. Here is the batch + python script. Save the script as <em>blog_post.bat</em> or whatever you want but the file extension must be <em>.bat</em></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code><span class="nd">@echo</span> <span class="n">off</span> <span class="o">&amp;</span> <span class="n">python</span> <span class="o">-</span><span class="n">x</span> <span class="s">"</span><span class="si">%</span><span class="s">~f0"</span> <span class="o">%*&amp;</span> <span class="n">goto</span> <span class="p">:</span><span class="n">eof</span>
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="nd">@echo</span> <span class="n">off</span> <span class="o">&amp;</span> <span class="n">python</span> <span class="o">-</span><span class="n">x</span> <span class="s">"</span><span class="si">%</span><span class="s">~f0"</span> <span class="o">%*&amp;</span> <span class="n">goto</span> <span class="p">:</span><span class="n">eof</span>
 
 <span class="c">#python script here</span>
 
@@ -118,16 +130,22 @@
 
 <p>I used python’s built in Tkinter for post title prompt.</p>
 
+<blockquote>
+  <p>Also check: <a href="http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer">Generate Video Thumbnails in Ubuntu</a></p>
+</blockquote>
+
   </article>
 
-  
-
-<div >
-    Share this on &rarr;
+  <div>
+Share this on &rarr;
     
+<a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fraviikmr.github.io%2Fblog%2Fautomating-post-generation-with-python" rel="nofollow" target="_blank" title="Share on Facebook" style="color:#fff; background:#3b5998; padding: 4px; text-decoration: none;">Facebook</a>
+    
+<a href="http://twitter.com/intent/tweet?text=Automating%20Post%20Generation%20with%20Python&url=http%3A%2F%2Fraviikmr.github.io%2Fblog%2Fautomating-post-generation-with-python&via=raviikmr&related=raviikmr" rel="nofollow" target="_blank" title="Share on Twitter" style="color:#fff; background:#00aced; padding: 4px; text-decoration: none;">Twitter</a>
+	
+<a href="http://plus.google.com/share?url=http%3A%2F%2Fraviikmr.github.io/blog/automating-post-generation-with-python" rel="nofollow" target="_blank" title="Share on Google+" style="color:#fff; background:#dd4b39; padding: 4px; text-decoration: none;">Google+</a>
+
 </div>
-
-
   <div id="tags_cloud">
     <ul class="tag_list">
       
@@ -183,13 +201,15 @@
   <div class="col-box-title">Newest Posts</div>
   <ul class="post-list">
     
+      <li><a class="post-link" href="/blog/my-game-live-is-on-play-store">My Game Live is on Play Store</a></li>
+    
+      <li><a class="post-link" href="/blog/simple-social-sharing-for-jekyll-blog">Simple Social Sharing For Jekyll Blog</a></li>
+    
+      <li><a class="post-link" href="/blog/tags-in-jekyll-github-blog-without-plugins">Tags in Jekyll Github Blog without Plugins</a></li>
+    
       <li><a class="post-link" href="/blog/generate-video-thumbnails-with-ffmpegthumbnailer">Generate Video Thumbnails with 'ffmpegthumbnailer'</a></li>
     
       <li><a class="post-link" href="/blog/fix-slow-image-loading-in-window-photo-viewer">Fix Slow Image Loading in Window Photo Viewer</a></li>
-    
-      <li><a class="post-link" href="/blog/automating-post-generation-with-python">Automating Post Generation with Python</a></li>
-    
-      <li><a class="post-link" href="/blog/my-website-launched">Launching Site</a></li>
     
   </ul>
 </div>

@@ -1,9 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: My Game Live is on Play Store
 date: 2017-07-02
-category: games
+category: gamedev
 ---
 
 I'm very excited to announce My first game on Google Play Store! It is called **"Soccer Ball Juggler"**.

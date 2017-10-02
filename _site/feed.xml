@@ -4,24 +4,50 @@
     <title>My Dev Blag</title>
     <description>A blog about the journey of a guy into the land of computers.
 </description>
-    <link>http://raviikmr.github.io/</link>
-    <atom:link href="http://raviikmr.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Jul 2017 02:49:43 +0530</pubDate>
-    <lastBuildDate>Mon, 03 Jul 2017 02:49:43 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Oct 2017 21:03:36 +0530</pubDate>
+    <lastBuildDate>Mon, 02 Oct 2017 21:03:36 +0530</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>My Game Live is on Play Store</title>
-        <description>&lt;p&gt;I’m very excited to announce My first game on Google Play Store! It is called &lt;strong&gt;“Soccer Ball Juggler”&lt;/strong&gt;.&lt;/p&gt;
+        <title>My Platformer Game is Live on Play Store</title>
+        <description>&lt;p&gt;I’m very excited to announce My Platformer game &lt;strong&gt;“Rob the Slayer”&lt;/strong&gt; is now live on Google Play Store!&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.raviikmr.juggler&quot;&gt;Download Soccer Ball Juggler&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.raviikmr.robtheslayer&quot;&gt;Download Rob the Slayer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.raviikmr.robtheslayer&quot;&gt;&lt;img src=&quot;/imgs/rob_the_slayer.gif&quot; alt=&quot;screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Oct 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/my-platformer-game-is-live-on-play-store</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/my-platformer-game-is-live-on-play-store</guid>
+        
+        
+        <category>gamedev</category>
+        
+      </item>
+    
+      <item>
+        <title>My Game Live is on Play Store</title>
+        <description>&lt;p&gt;I’m very excited to announce My first game on Google Play Store! It is called &lt;strong&gt;“Soccer Ball Juggler”&lt;/strong&gt;.
+&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.raviikmr.juggler&quot;&gt;Download Soccer Ball Juggler&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.raviikmr.juggler&quot;&gt;&lt;img src=&quot;/imgs/juggler.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Jul 2017 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/my-game-live-is-on-play-store</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/my-game-live-is-on-play-store</guid>
+        <link>http://localhost:4000/blog/my-game-live-is-on-play-store</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/my-game-live-is-on-play-store</guid>
         
         
         <category>gamedev</category>
@@ -55,11 +81,11 @@ Share this on &lt;span class=&quot;ni&quot;&gt;&amp;amp;rarr;&lt;/span&gt;
  &lt;div&gt;
 Share this on &amp;rarr;
     
-&lt;a href=&quot;http://facebook.com/sharer.php?u=http%3A%2F%2Fraviikmr.github.io%2Fblog%2Fsimple-social-sharing-for-jekyll-blog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Facebook&quot; style=&quot;color:#fff; background:#3b5998; padding: 4px; text-decoration: none;&quot;&gt;Facebook&lt;/a&gt;
+&lt;a href=&quot;http://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fsimple-social-sharing-for-jekyll-blog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Facebook&quot; style=&quot;color:#fff; background:#3b5998; padding: 4px; text-decoration: none;&quot;&gt;Facebook&lt;/a&gt;
     
-&lt;a href=&quot;http://twitter.com/intent/tweet?text=Simple%20Social%20Sharing%20For%20Jekyll%20Blog&amp;amp;url=http%3A%2F%2Fraviikmr.github.io%2Fblog%2Fsimple-social-sharing-for-jekyll-blog&amp;amp;via=raviikmr&amp;amp;related=raviikmr&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot; style=&quot;color:#fff; background:#00aced; padding: 4px; text-decoration: none;&quot;&gt;Twitter&lt;/a&gt;
+&lt;a href=&quot;http://twitter.com/intent/tweet?text=Simple%20Social%20Sharing%20For%20Jekyll%20Blog&amp;amp;url=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fsimple-social-sharing-for-jekyll-blog&amp;amp;via=raviikmr&amp;amp;related=raviikmr&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Twitter&quot; style=&quot;color:#fff; background:#00aced; padding: 4px; text-decoration: none;&quot;&gt;Twitter&lt;/a&gt;
 	
-&lt;a href=&quot;http://plus.google.com/share?url=http%3A%2F%2Fraviikmr.github.io/blog/simple-social-sharing-for-jekyll-blog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Google+&quot; style=&quot;color:#fff; background:#dd4b39; padding: 4px; text-decoration: none;&quot;&gt;Google+&lt;/a&gt;
+&lt;a href=&quot;http://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000/blog/simple-social-sharing-for-jekyll-blog&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot; title=&quot;Share on Google+&quot; style=&quot;color:#fff; background:#dd4b39; padding: 4px; text-decoration: none;&quot;&gt;Google+&lt;/a&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -80,8 +106,8 @@ We can do this by including the following line to our post layout:&lt;/p&gt;
 &lt;p&gt;This is it! Now we have a working social sharing buttons in our blog!&lt;/p&gt;
 </description>
         <pubDate>Fri, 08 Apr 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/simple-social-sharing-for-jekyll-blog</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/simple-social-sharing-for-jekyll-blog</guid>
+        <link>http://localhost:4000/blog/simple-social-sharing-for-jekyll-blog</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/simple-social-sharing-for-jekyll-blog</guid>
         
         <category>social</category>
         
@@ -227,12 +253,12 @@ layout: default
 &lt;p&gt;Now we’ll push the changes to &lt;strong&gt;github&lt;/strong&gt; and when we do that our &lt;strong&gt;tags&lt;/strong&gt; system will be working now.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Check out my other article: &lt;a href=&quot;http://raviikmr.github.io/blog/automating-post-generation-with-python&quot;&gt;Automating Post Generation&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Check out my other article: &lt;a href=&quot;http://localhost:4000/blog/automating-post-generation-with-python&quot;&gt;Automating Post Generation&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/tags-in-jekyll-github-blog-without-plugins</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/tags-in-jekyll-github-blog-without-plugins</guid>
+        <link>http://localhost:4000/blog/tags-in-jekyll-github-blog-without-plugins</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/tags-in-jekyll-github-blog-without-plugins</guid>
         
         <category>jekyll</category>
         
@@ -294,8 +320,8 @@ layout: default
 &lt;p&gt;Now video thumbnails should be working fine.&lt;/p&gt;
 </description>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/generate-video-thumbnails-with-ffmpegthumbnailer</guid>
+        <link>http://localhost:4000/blog/generate-video-thumbnails-with-ffmpegthumbnailer</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/generate-video-thumbnails-with-ffmpegthumbnailer</guid>
         
         <category>ubuntu</category>
         
@@ -317,8 +343,8 @@ Watch the video below.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/fix-slow-image-loading-in-window-photo-viewer</guid>
+        <link>http://localhost:4000/blog/fix-slow-image-loading-in-window-photo-viewer</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/fix-slow-image-loading-in-window-photo-viewer</guid>
         
         <category>windows</category>
         
@@ -366,8 +392,8 @@ Watch the video below.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 23 Mar 2016 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/automating-post-generation-with-python</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/automating-post-generation-with-python</guid>
+        <link>http://localhost:4000/blog/automating-post-generation-with-python</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/automating-post-generation-with-python</guid>
         
         <category>python</category>
         
@@ -390,8 +416,8 @@ Watch the video below.&lt;/p&gt;
 It actually is a lot easier than I thought it was going to be.&lt;/p&gt;
 </description>
         <pubDate>Sat, 22 Aug 2015 00:00:00 +0530</pubDate>
-        <link>http://raviikmr.github.io/blog/my-website-launched</link>
-        <guid isPermaLink="true">http://raviikmr.github.io/blog/my-website-launched</guid>
+        <link>http://localhost:4000/blog/my-website-launched</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/my-website-launched</guid>
         
         <category>jekyll</category>
         

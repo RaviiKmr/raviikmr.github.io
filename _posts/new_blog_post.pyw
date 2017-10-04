@@ -1,4 +1,4 @@
-@echo off & python -x "%~f0" %*& goto :eof
+#@echo off & python -x "%~f0" %*& goto :eof
 
 #python script here
 

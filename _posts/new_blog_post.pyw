@@ -5,10 +5,10 @@
 import os
 import string
 import datetime
-import Tkinter
-from tkSimpleDialog import askstring
+import tkinter
+from tkinter.simpledialog import askstring
 
-root = Tkinter.Tk()
+root = tkinter.Tk()
 root.withdraw()
 title = askstring('Blog Post Title','Title')
 postname = title.lower().strip().replace(" ","-")

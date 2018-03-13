@@ -1,5 +1,5 @@
 ---
-layout: fullscreen
+layout: default
 published: true
 title: Space Ballz - The Newest Ball Game
 date: 2018-03-13

@@ -6,8 +6,6 @@ date: 2018-03-13
 category: gamedev
 ---
 
-<html>
-<head>
 <style>
 .article-big {
 	width: 90%;
@@ -34,11 +32,11 @@ body {
 }
 
 </style>
-</head>
+
 <div class="article-big">
-	<div class="article-image-big"><a href="https://play.google.com/store/apps/details?id=com.raviikmr.spaceballz" target="_blank" alt="Space Ballz"><img class="main-img" src="imgs/space_ballz.png"></a>
-	<div class="article-badge"> <a href="https://play.google.com/store/apps/details?id=com.raviikmr.spaceballz" target="_blank" alt="Space Ballz"><img src="imgs/playstore.png"></a></div></div>
+	<div class="article-image-big"><a href="https://play.google.com/store/apps/details?id=com.raviikmr.spaceballz" target="_blank" alt="Space Ballz"><img class="main-img" src="/imgs/space_ballz.png"></a>
+	<div class="article-badge"> <a href="https://play.google.com/store/apps/details?id=com.raviikmr.spaceballz" target="_blank" alt="Space Ballz"><img src="/imgs/playstore.png"></a></div></div>
 	</div>
 	
-</html>
+
 	
